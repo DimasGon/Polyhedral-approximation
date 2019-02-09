@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.center {
+    width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.post-graph {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.graph img {
+    height: 85vh;
+    width: 85vh;
+    margin-right: 5vw;
+}
+
+.points {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    height: 85vh;
+}
+.top-points {
+    font-size: 30px;
+    text-align: center;
+}
+
+.next-step {
+    width: 100%;
+    text-align: center;
+}
